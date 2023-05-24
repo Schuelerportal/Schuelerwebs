@@ -1,42 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Footer</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <section class="footer">
-        <div class="social">
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-snapchat"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-        </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Schülerportal</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <meta charset="UTF8" />
+        <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+        <link rel="stylesheet" href="style.css" />
+        <script src="javascript.js" type="text/javascript"></script>
+        
 
-        <ul class="list">
-            <li>
-                <a href="#">Home</a>
-            </li>
-            <li>
-                <a href="#">Services</a>
-            </li>
-            <li>
-                <a href="#">About</a>
-            </li>
-            <li>
-                <a href="#">Terms</a>
-            </li>
-            <li>
-                <a href="#">Privacy Policy</a>
-            </li>
-        </ul>
-        <p class="copyright">
-            1inf1 @ 2023
-        </p>
-    </section>
-</body>
+        <style> 
+            body {
+                font-family: 'Open Sans', sans-serif;
+                padding-left: 0px;
+                padding-right: 0px;
+                padding-top: 25px;
+            }
+            
+            .headline {
+                color: black;
+            }
+            .banner-container{
+                background-color: #9fcfef;
+                padding: 0%;
+                display: flex;
+                justify-content: right;
+            }
+            .header1 {
+                
+                padding-left: 50px;
+                padding-right: 50px;
+                background: #9fcfef;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                font-weight: light;
+            }
+
+            a {
+                color: black;
+                text-decoration: none;
+                margin-left: 10px;
+                font-weight: light;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            
+            .Untertitel{
+                color: black;
+                font-size: 40px;
+            }
+            .text-container {
+                font-size: 16px;
+                padding-left: 8px;
+            }
+            .banner {
+                display: flex;
+                justify-content: left;
+                width: 80px;
+                margin-right: 10px;
+            }
+    
+            .responsive{
+                display:flex;
+                justify-content: left;
+                font-weight: light;
+            }
+            .h2 {
+                font-weight: light;
+                font-size: 20px;
+                color: black; 
+            }
+            .footer{
+                position: bottom;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: #9fcfef;
+                height: auto;
+                width:auto;
+                padding-top: 10px;
+                color: #fff;
+            }
+            .footer-content {
+                display: flex;
+                justify-content: left;
+                flex-direction: column;
+                padding-left: 10px;
+            }
+            .footer-bottom{
+                background: #376b9f;
+                width:auto;
+                padding: 5px;
+                padding-bottom: 5px;
+                text-align: left;
+            }
+
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class = "header1">
+                <div>
+                    <span class = "headline">Rupert-Gymnasium </span> <br> <span class ="Untertitel">Schüler-Portal</span>
+                </div>
+                <nav class = "Links"> 
+                    <a href = "#">Vertretungsplan</a>
+                    <a href = "#">Stundenplan</a>
+                    <a href = "#">Hausaufgaben</a>
+                    <a href = "#">Kalender</a>
+                    <a href = "#">Lehrer</a>
+                    <a href = "#">Formulare</a>
+                    <a href = "#">Umfrage</a>
+                </nav>
+            
+        </header>
+        </div>
+        <article>
+            <br>
+            <div class = h2>Stundenplan</div>
+            <br>
+        </article>
+        <section>
+                <form>
+                    <table class="responsive">
+                        <link type = "text/css" media="screen" rel="stylesheet" href"responsive-table.css"/>
+                <script type = "text/javascript" src="responsivetables.js"></script>
+                    <tr>
+                        <th class="tg-ijr3"></th>
+                        <th class="tg-ijr3">Montag</th>
+                        <th class="tg-ijr3">Dienstag</th>
+                        <th class="tg-ijr3">Mittwoch</th>
+                        <th class="tg-ijr3">Donnerstag</th>
+                        <th class="tg-ijr3">Freitag</th> 
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>1. Stunde</strong><br>7:50 - 8:35</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td> 
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>2. Stunde</strong><br>8:40 - 9:25</td>
+                        <td class="tg-gii3"><input type="text"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>3. Stunde</strong><br>9:30 - 10:15</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>4. Stunde</strong><br>10:40 - 11:25</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>5. Stunde</strong><br>11:30 - 12:15</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>6. Stunde</strong><br>12:15 - 13:00</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>7. Stunde</strong><br>13:00 - 13:45</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>8. Stunde</strong><br>13:45 - 14:30</td>
+                        <td class="tg-gii3"><input type="text" class="eingabe"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    <tr>
+                        <td class="tg-ijr3"><strong>9. Stunde</strong><br>14:30 - 15:15</td>
+                        <td class="tg-gii3"><input type="text"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    <tr>
+                        <td class="tg-ijr3"><strong>10. Stunde</strong> <br> 15:15 - 16:00</td>
+                        <td class="tg-gii3"><input type="text"/></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                        <td class="tg-gii3"><input type="text" class="eingabe" /></td>
+                    </tr>
+                    </table>
+                </form>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                
+            </section>      
+            <footer class ="footer">
+                <div class = "footer-content">
+                    <p>Sie sind am Ende der Seite angelangt.</p>
+                    <img class ="banner" src="bild2.png"> 
+                </div>
+                
+                
+               
+    
+               <div class="footer-bottom"> 
+                    <p>designed by @1inf1 2023</p>
+               </div>
+            </footer> 
+    </body>
 </html>
